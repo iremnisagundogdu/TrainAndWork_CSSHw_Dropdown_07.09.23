@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="item"><a href="">Anasayfa</a></div>
+            <div class="item"><a href="">Hakkımızda</a></div>
+            <div class="drop-down item">
+                <a class="drop-down-menu">Galeri</a>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Doğa Resimleri</a></li>
+                        <li><a href="#">İnsan Resimleri</a></li>
+                        <li><a href="#">Araba Resimleri</a></li>
+                        <li><a href="#">Hayvan Resimleri</a></li>
+                        <li><a href="#">Abstract Resimler</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item"><a href="">İletişim</a></div>
+        </nav>
+    </header>
+</body>
+</html>
+
+
+.header {
+           
+    padding: 20px;
+   font-size: larger;
+   font-weight: bolder;
+}
+
+.navbar .item {
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+    padding: 10px 0;
+    float: left;
+    background-color: black;
+    color: white;;
+}
+
+.item a {
+    margin: 0 10px;
+   
+}
+
+.menu ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+.drop-down:hover .menu ul {
+    display: block;
+}
+
+.menu ul li {
+    padding: 10px 20px;
+}
+
+.menu ul li:hover {
+    background-color: white !important;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+   
+}
+a:hover{
+    color: #000;
+    background-color: white;
+}
+
